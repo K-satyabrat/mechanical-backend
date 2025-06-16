@@ -95,18 +95,63 @@ The server will start running on `http://localhost:8000` (or the port specified 
 ```
 ├── config/
 │   └── mongodbConnection.js
+├── constants/
+│   └── (constant files)
+├── controllers/
+│   ├── userController.js
+│   ├── adminController.js
+│   ├── productController.js
+│   ├── cartController.js
+│   ├── orderController.js
+│   ├── paymentController.js
+│   ├── notificationController.js
+│   ├── referralController.js
+│   ├── bannerController.js
+│   ├── aboutUsController.js
+│   ├── privacyAndPolicyController.js
+│   ├── termsAndConditionsControllers.js
+│   ├── referAndEarnPolicyController.js
+│   └── adminNotfnController.js
+├── models/
+│   ├── userModel.js
+│   ├── adminModel.js
+│   ├── productModel.js
+│   ├── cartModel.js
+│   ├── orderModel.js
+│   ├── paymentModel.js
+│   ├── notificationModel.js
+│   ├── referralModel.js
+│   ├── bannerModel.js
+│   ├── aboutUsModel.js
+│   ├── privacyAndPolicyModel.js
+│   ├── termsAndConditionsModel.js
+│   ├── referAndEarnPolicyModel.js
+│   ├── adminNotificationModel.js
+│   ├── kycModel.js
+│   └── dummyOrder.js
 ├── routers/
 │   ├── userRouter.js
+│   ├── adminRouter.js
 │   ├── productRouter.js
 │   ├── cartRouter.js
 │   ├── orderRouter.js
-│   └── ... (other routers)
+│   ├── paymentRouter.js
+│   ├── notificationRouter.js
+│   ├── referralRouter.js
+│   ├── bannerRouter.js
+│   ├── aboutUsRouter.js
+│   ├── privacyAndPolicyRouter.js
+│   ├── termsAndConditionsRouter.js
+│   ├── referAndEarnPolicyRouter.js
+│   └── adminNotfnRouter.js
 ├── utils/
 │   ├── socketHandler.js
 │   └── cleanup.js
 ├── .env
+├── .gitignore
 ├── index.js
-└── package.json
+├── package.json
+└── package-lock.json
 ```
 
 
