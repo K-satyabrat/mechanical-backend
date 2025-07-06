@@ -41,7 +41,6 @@ A robust backend application built with Express.js for a mechanical parts/produc
 - **Backend Framework**: Express.js
 - **Database**: MongoDB
 - **Real-time Communication**: Socket.IO
-- **API Documentation**: Available at `/api` endpoints
 - **Environment Variables**: Using dotenv
 
 ## Prerequisites
@@ -66,7 +65,7 @@ MONGODB_URI=your_mongodb_connection_string
 
 3. Start the server:
 ```bash
-npm start
+npm run dev
 ```
 
 The server will start running on `http://localhost:8000` (or the port specified in your .env file)
